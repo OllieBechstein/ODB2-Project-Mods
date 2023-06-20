@@ -10,6 +10,10 @@ contents = [
     # code for the new additions
     
     "code.py",
+
+    # code for the perks
+
+    "billy-perks.py",
     
     # localized text for your mod
     
