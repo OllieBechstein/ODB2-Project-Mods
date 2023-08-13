@@ -21,3 +21,6 @@ contents = [
     
     #"assets.win", "assets.mac",
 ]
+starting_conditions = [
+    "SwapMeatball()"
+]
