@@ -8,7 +8,7 @@ class PerkLunchtime(GlobalCondition):
 
     def info(self):
         info = CondInfo()
-        info.FullDescription = LS("perk.lunchtime.desc", "Whenever you colonize a planet producing :F:, you receive [[delta:{10}$]]", self._amount)
+        info.FullDescription = LStr("perk.lunchtime.desc", self._amount)
         return info
 
     def check(self, data):
