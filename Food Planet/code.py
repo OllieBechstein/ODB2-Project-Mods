@@ -1,3 +1,6 @@
 ### The code for your custom game objects goes here.
-### Please refer to the modding documentation at https://docs.slipways.net for details on how to write it.
-
+class ChangeMapGen(MapGenGuaranteePlanets):
+    def __init__(self):
+        MapGenGuaranteePlanets.__init__(self, [
+        ("planet.meatball", 100, 100, ["planet.mining"]),
+        ])

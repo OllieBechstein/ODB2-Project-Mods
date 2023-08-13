@@ -1,6 +1,6 @@
-name = "Template: Blank mod"
+name = "Food Planet"
 version = "1.0"
-description = "Start from this template to create your own mod.\nAfter downloading the mod, copy it to your own subfolder under the mods/ directory and start editing from there."
+description = "Adds a new food based planet to Slipways for use with the Billy Mod."
 contents = [
     # a spreadsheet that defines new objects added to the game by your mod
     # you probably need this one
