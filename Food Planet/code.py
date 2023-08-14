@@ -2,5 +2,5 @@
 class SwapMeatball(MapGenGuaranteePlanets):
     def __init__(self):
         MapGenGuaranteePlanets.__init__(self, [
-        ("planet.meatball", 20, 30, ["planet.mining"]),
+        ("planet.meatball", 5, 6, ["planet.mining"]),
         ])
